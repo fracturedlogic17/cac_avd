@@ -28,6 +28,7 @@
 #   --force            continue on a distribution or version this script doesn't support
 #
 # Close the browsers being configured first. Safe to re-run; every step is idempotent.
+# To undo the setup, run: sudo ./cac_uninstall.sh (see its --help).
 
 set -euo pipefail
 
