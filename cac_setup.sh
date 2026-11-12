@@ -2195,8 +2195,8 @@ elif [[ $HAVE_CARD == 0 ]]; then
   step=$((step + 1))
 fi
 if [[ ${#CHOSEN[@]} -gt 0 ]]; then
-  echo "  $step. Open $(join ", " "${CHOSEN[@]}") and sign in to a CAC site, e.g."
-  echo "     https://www.militarycac.com/testcac.htm (choose your authentication certificate, enter your PIN)."
+  echo "  $step. Open $(join ", " "${CHOSEN[@]}") and sign in to a site you normally use your CAC for"
+  echo "     (choose your authentication certificate, enter your PIN)."
   step=$((step + 1))
 fi
 if sel firefox || sel firefox-snap; then
